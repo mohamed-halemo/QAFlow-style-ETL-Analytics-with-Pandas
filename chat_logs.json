@@ -1,0 +1,37 @@
+[
+  {
+    "session_id": "s1",
+    "messages": [
+      {
+        "speaker": "QA",
+        "msg": "Test login failed, see stack trace",
+        "ts": "2025-09-27T10:00:00"
+      },
+      {
+        "speaker": "Dev",
+        "msg": "Can you share the log?",
+        "ts": "2025-09-27T10:01:00"
+      },
+      {
+        "speaker": "QA",
+        "msg": "Here is the log: \u2026",
+        "ts": "2025-09-27T10:02:00"
+      }
+    ]
+  },
+  {
+    "session_id": "s2",
+    "messages": [
+      {
+        "speaker": "QA",
+        "msg": "Checkout discount test flaky",
+        "ts": "2025-09-27T11:00:00"
+      },
+      {
+        "speaker": "Dev",
+        "msg": "I\u2019ll investigate API call",
+        "ts": "2025-09-27T11:01:00"
+      }
+    ]
+  }
+]

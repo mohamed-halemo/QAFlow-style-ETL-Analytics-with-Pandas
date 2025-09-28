@@ -1,0 +1,7 @@
+run_id,suite,test_name,status,duration_s,customer_id,is_flaky,suite_n_runs,suite_n_fail,suite_n_flaky,suite_fail_rate,suite_flaky_rate
+2,login,login_invalid,fail,8.5,1002,False,2,2,0,1.0,0.0
+3,checkout,checkout_pay,fail,20.0,1001,False,2,1,1,0.5,0.5
+5,checkout,checkout_express,flaky,12.7,1001,True,2,1,1,0.5,0.5
+6,profile,profile_update,fail,9.9,1002,False,2,1,1,0.5,0.5
+8,login,login_rate_limit,fail,10.5,1001,False,2,2,0,1.0,0.0
+9,profile,profile_privacy,flaky,13.0,1002,True,2,1,1,0.5,0.5

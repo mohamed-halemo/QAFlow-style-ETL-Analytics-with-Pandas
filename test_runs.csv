@@ -1,0 +1,11 @@
+run_id,suite,test_name,status,duration_s,customer_id
+1,login,login_valid,pass,10.1,1001
+2,login,login_invalid,fail,8.5,1002
+3,checkout,checkout_pay,fail,20.0,1001
+4,checkout,checkout_cancel,pass,15.2,1003
+5,checkout,checkout_express,flaky,12.7,1001
+6,profile,profile_update,fail,9.9,1002
+7,profile,profile_avatar,pass,11.3,1003
+8,login,login_rate_limit,fail,10.5,1001
+9,profile,profile_privacy,flaky,13.0,1002
+10,checkout,checkout_discount,pass,18.4,1003
